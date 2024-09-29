@@ -32,7 +32,7 @@ cred = credentials.Certificate(firebase_credentials)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-bot_token = '7825801271:AAHqKoXsB56mKvthbPP7-3nGeo0Ot-pqoS4'  # Replace with your bot token
+bot_token = '7608735894:AAGmutlWmxvQomULCZdcYbd27yheDZ13Q3Y'  # Replace with your bot token
 proxy_api_url = 'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http,socks4,socks5&timeout=500&country=all&ssl=all&anonymity=all'
 
 # Global iterator for proxies
@@ -79,7 +79,7 @@ def rotate_proxy(sent_message):
 
 bot = telebot.TeleBot(bot_token)
 
-ADMIN_ID = 786723480  # Replace with the actual admin's user ID
+ADMIN_ID = 907345225  # Replace with the actual admin's user ID
 
 def generate_one_time_key():
     return secrets.token_urlsafe(16)
